@@ -4,11 +4,11 @@ The intro and medium folders are just random toy problems that I have collected 
 
 ## Purposed Weekly Schedule
 
-<li>Monday: Teaching topic/normal toy problem</li>
-<li>Tuesday: Cart (Week 5 SQL Cart Schema)</li>
-<li>Wednesday: HTML</li>
-<li>Thursday: Broken Toy problem</li>
-<li>Friday: Breakfast</li>
+<li>Monday - Teaching topic/normal toy problem</li>
+<li>Tuesday - Cart (Week 5 SQL Cart Schema)</li>
+<li>Wednesday - HTML</li>
+<li>Thursday - Broken Toy problem</li>
+<li>Friday - Breakfast</li>
 
 ## HTML
 
