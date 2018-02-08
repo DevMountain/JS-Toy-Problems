@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Post</title>
+    <link rel="stylesheet" href="./reset.css">
+</head>
+
+<body>
+    <style>
+        /* POST */
+
+        .post * {
+            padding: 5px;
+            display: flex;
+        }
+
+        .post {
+            background: green;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .post>* {
+            background: red;
+            margin: 5px;
+        }
+
+        .post>*>* {
+            background: blue;
+        }
+
+        .post>*>*>* {
+            background: gold;
+        }
+
+        .post>*>*>*>* {
+            background: hotpink;
+        }
+
+        /* HEADER BOX */
+
+        .header {
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        /* HEADER CHILDREN */
+
+        .user {
+            
+        }
+
+        #user-image {
+
+        }
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-name {
+            
+        }
+
+        .post-date {
+            
+        }
+
+        button {
+            
+        }
+
+        /* IMAGE BOX */
+
+        #image {
+
+        }
+
+        /* INFO BOX */
+
+        .info-box {
+            justify-content: space-between;
+        }
+
+        /* FOOTER BOX */
+
+        .footer {
+            justify-content: flex-start;
+        }
+    </style>
+
+    <div class="post">
+
+        <!-- HEADER BOX -->
+        <div class="header">
+
+            <div class="user">
+
+                <img id="user-image" src="">
+
+                <div class="user-info">
+                    <div class="user-name">
+                        
+                    </div>
+                    <div class="post-date">
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="options">...</button>
+
+        </div>
+
+        <!-- IMAGE BOX -->
+        <img id="image" src="./FBImage.PNG">
+
+        <!-- INFO BOX -->
+        <div class="info-box">
+
+            <div class="user-info">
+                <div class="user-name">
+                    
+                </div>
+                <div class="post-date">
+
+                </div>
+            </div>
+
+            <div class="like">
+                <button class="like-button">
+                    
+                </button>
+            </div>
+
+        </div>
+
+        <!-- FOOTER BOX -->
+        <div class="footer">
+
+            <button class="like-button">
+                
+            </button>
+
+            <button class="comment-button">
+                
+            </button>
+
+            <button class="share-button">
+                
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

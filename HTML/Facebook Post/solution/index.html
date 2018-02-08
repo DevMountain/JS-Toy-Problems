@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Post</title>
+    <link rel="stylesheet" href="./reset.css">
+</head>
+
+<body>
+    <style>
+        /* POST */
+
+        .post * {
+            padding: 5px;
+            display: flex;
+        }
+
+        .post {
+            background: green;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .post>* {
+            background: red;
+            margin: 5px;
+        }
+
+        .post>*>* {
+            background: blue;
+        }
+
+        .post>*>*>* {
+            background: gold;
+        }
+
+        .post>*>*>*>* {
+            background: hotpink;
+        }
+
+        /* POST CHILDREN */
+
+        .header {
+            position: relative;
+            /* for the absolutely-positioned button */
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        /* HEADER CHILDREN */
+
+        .user {
+            /* width: 50%; */
+        }
+
+        #user-image {
+            width: auto;
+        }
+
+        .user-info {
+            /* width: 100%; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-name {
+            padding: 0;
+        }
+
+        .post-date {
+            padding: 0; 
+        }
+
+        button {
+            padding: 5px;
+            border: none;
+            outline: none;
+        }
+
+        img {
+            padding: 0;
+            margin: 10px;
+            width: calc(100% - 20px);
+        }
+
+        #image {
+            padding: 0;
+            margin: 0 10px;
+            width: calc(100% - 20px);
+        }
+
+        .info {
+            justify-content: space-between;
+        }
+
+        .footer {
+            justify-content: flex-start;
+        }
+    </style>
+
+    <div class="post">
+        <div class="header">
+            <div class="user">
+                <img id="user-image" src="">
+                <div class="user-info">
+                    <div class="user-name">Todd M. Rasband</div>
+                    <div class="post-date">January 15, 2018</div>
+                </div>
+            </div>
+            <button class="options">...</button>
+        </div>
+        <img id="image" src="./FBImage.PNG">
+        <div class="info">
+            <div class="user-info">
+                <div class="user-name">Crippling Things</div>
+                <div class="post-date">December 31, 2017</div>
+            </div>
+            <div class="like">
+                <button class="like-button">
+                    Like Page
+                </button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="like-button">
+                Like
+            </div>
+            <div class="comment-button">
+                Comment
+            </div>
+            <div class="share-button">
+                Share
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
